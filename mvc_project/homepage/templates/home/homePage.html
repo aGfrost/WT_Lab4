@@ -1,0 +1,75 @@
+{% extends 'home/wrapper2.html' %}
+
+
+{% block content %}
+    <div class="content">
+        <p>
+            <u>Artist:</u>
+            {{ album1.artist }}
+        </p>
+        <p>
+            <u>Album Title:</u>
+            {{ album1.album_title }}
+        </p>
+        <p>
+            <u>Genre:</u>
+            {{ album1.genre }}
+        </p>
+        <a href="/music/album/red" class="btn btn-success btn-lg">{{ album1.artist }} &raquo;</a>
+
+
+        <p></p><br />
+
+        <p>
+            <u>Artist:</u>
+            {{ album2.artist }}
+        </p>
+        <p>
+            <u>Album Title:</u>
+            {{ album2.album_title }}
+        </p>
+        <p>
+            <u>Genre:</u>
+            {{ album2.genre }}
+        </p>
+        <a href="/music/album/world" class="btn btn-success btn-lg">{{ album2.artist }} &raquo;</a>
+
+
+        <p></p><br />
+
+        <p>
+            <u>Artist:</u>
+            {{ album3.artist }}
+        </p>
+        <p>
+            <u>Album Title:</u>
+            {{ album3.album_title }}
+        </p>
+        <p>
+            <u>Genre:</u>
+            {{ album3.genre }}
+        </p>
+        <a href="/music/album/roads" class="btn btn-success btn-lg">{{ album3.artist }} &raquo;</a>
+
+
+        <p></p><br />
+
+        <p>
+            <u>Artist:</u>
+            {{ album4.artist }}
+        </p>
+        <p>
+            <u>Album Title:</u>
+            {{ album4.album_title }}
+        </p>
+        <p>
+            <u>Genre:</u>
+            {{ album4.genre }}
+        </p>
+        <a href="/music/album/california" class="btn btn-success btn-lg">{{ album4.artist }} &raquo;</a>
+
+        <p></p><br />
+        <a href="/" class="btn btn-primary btn-lg">HOME</a>
+
+    </div>
+{% endblock %}

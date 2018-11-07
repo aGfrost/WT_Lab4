@@ -1,0 +1,24 @@
+{% extends 'home/wrapper2.html' %}
+
+{% block content %}
+    <div class="content">
+        <p>
+            <u>Album:</u>
+            {{ description2.album }}
+        </p>
+        <p>
+            <u>Description:</u>
+            {{ description2.description }}
+        </p>
+        <p>
+            <u>Song Text:</u>
+            {{ description2.song_text }}
+        </p>
+
+        <p></p><br />
+        <a href="/home" class="btn btn-info btn-lg">BACK</a>
+        <p></p><br />
+        <a href="/" class="btn btn-primary btn-lg">HOME</a>
+
+    </div>
+{% endblock %}
